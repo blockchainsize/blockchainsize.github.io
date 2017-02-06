@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   background: #fff;
   color: #333;
+  font-family: "Open Sans Condensed", Arial, sans;
 }
 
 .blockchainsize {
