@@ -1,0 +1,38 @@
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+.blockchainsize {
+  position: fixed;
+  text-align: center;
+  vertical-align: middle;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  line-height: 100vh;
+  font-size: 25vw;
+}
+
+.blockchainsize-decimal,
+.blockchainsize-unit {
+  font-size: 50%;
+}
+
+.blockchainsize-unit {
+  color: #aaa;
+}
+
+.blockchainsize-decimal {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .blockchainsize-decimal {
+    display: inline;
+  }
+}
