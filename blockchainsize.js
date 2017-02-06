@@ -1,7 +1,7 @@
 $(function () {
   function tick() {
     $.ajax({
-      url: "http://cors-anywhere.herokuapp.com/https://blockchain.info/charts/blocks-size?timespan=all&format=json&cors=true",
+      url: "https://cors-anywhere.herokuapp.com/https://blockchain.info/charts/blocks-size?timespan=all&format=json&cors=true",
       success: parseResponse
     });
   }
